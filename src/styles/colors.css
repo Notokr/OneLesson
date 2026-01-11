@@ -1,0 +1,66 @@
+:root {
+    --grey-0: #000000;
+    --grey-1: #131414;
+    --grey-2: #272929;
+    --grey-3: #3A3D3D;
+    --grey-4: #4D5252;
+    --grey-5: #606565;
+    --grey-6: #7F8686;
+    --grey-7: #9FA4A4;
+    --grey-8: #BFC3C3;
+    --grey-9: #DFE1E1;
+    --grey-10: #FFFFFF;
+    --grey-default: var(--grey-5);
+    --grey-background: var(--grey-1);
+    --grey-level-1: var(--grey-2);
+    --grey-level-2: var(--grey-3);
+
+    /* Accentuation */
+    --accentuation-main-00: #FFFFFF;
+    --accentuation-main-01: #F7FBFB;
+    --accentuation-main-02: #EFF7F8;
+    --accentuation-main-03: #E7F3F4;
+    --accentuation-main-04: #E0EFF0;
+    --accentuation-main-05: #D8EBED;
+    --accentuation-main-06: #D0E7E9;
+    --accentuation-main-07: #C8E3E5;
+    --accentuation-main-08: #C0DFE1;
+    --accentuation-main-09: #B8DBDE;
+    --accentuation-main-10: #B1D7DA;
+    --accentuation-main-11: #A9D3D6;
+    --accentuation-main-12: #A1CFD3;
+    --accentuation-main-13: #99CBCF;
+    --accentuation-main-14: #91C7CB;
+    --accentuation-main-15: #89C4C8;
+    --accentuation-main-16: #82C0C4;
+    --accentuation-main-17: #7ABCC0;
+    --accentuation-main-18: #72B8BD;
+    --accentuation-main-19: #6AB4B9;
+    --accentuation-main-20: #62B0B5;
+    --accentuation-main-21: #5AACB2;
+    --accentuation-main-22: #53A8AE;
+    --accentuation-main-23: #4FA0A6; /* Default */
+    --accentuation-main-24: #4B9A9F;
+    --accentuation-main-25: #489398;
+    --accentuation-main-26: #448C91;
+    --accentuation-main-27: #41858A;
+    --accentuation-main-28: #3D7E82;
+    --accentuation-main-29: #3A777B;
+    --accentuation-main-30: #367074;
+    --accentuation-main-31: #33696D;
+    --accentuation-main-32: #306265;
+    --accentuation-main-33: #2C5B5E;
+    --accentuation-main-34: #295457;
+    --accentuation-main-35: #254D50;
+    --accentuation-main-36: #224648;
+    --accentuation-main-37: #1F3F41;
+    --accentuation-main-38: #1B383A;
+    --accentuation-main-39: #183133;
+    --accentuation-main-40: #142A2B;
+    --accentuation-main-41: #112324;
+    --accentuation-main-42: #0E1C1D;
+    --accentuation-main-43: #0A1516;
+    --accentuation-main-44: #070E0E;
+    --accentuation-main-45: #030707;
+    --accentuation-main-46: #000000;
+}

@@ -1,0 +1,35 @@
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  /* Positioning */
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    /* background: var(--grey-1); */
+    background: transparent;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background: #ddd;
+    color: black;
+  }
+}
+
+
+
+@function --stripes(--color1, --color2, --size) {
+  result: repeating-linear-gradient(45deg,
+      var(--color1),
+      var(--color1) var(--size),
+      var(--color2) var(--size),
+      var(--color2) calc(var(--size)*2));
+}

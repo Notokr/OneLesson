@@ -1,0 +1,9 @@
+{
+  "version": 1.1,
+  "properties": [],
+  "atDirectives": [
+    { "name": "@function", "description": "Function at directive" }
+  ],
+  "pseudoClasses": [],
+  "pseudoElements": []
+}
