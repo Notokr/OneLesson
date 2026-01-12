@@ -14,7 +14,7 @@ ol-composition>*:not(#toolbar, #main, #sidebar) {
 
 /* Positioning for custom elements */
 
-@media (max-width: 903px) {
+@media (width < 904px) {
     ol-composition {
         /* Grid properties */
         grid-template-rows: 64px auto;
@@ -38,7 +38,7 @@ ol-composition>*:not(#toolbar, #main, #sidebar) {
     }
 }
 
-@media (min-width: 904px) {
+@media (width > 904px) {
     ol-composition {
         &:has(>#sidebar) {
             /* Grid properties */

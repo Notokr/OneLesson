@@ -36,8 +36,3 @@ function get(path) {
         return registries[namespace][key];
     }
 }
-
-register("registries.a")
-register("a.b", "c")
-console.log(get("a.b"));
-console.log(get("registries.a"));
