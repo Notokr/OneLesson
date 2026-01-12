@@ -3,16 +3,20 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; font-src 'self' https://fonts.gstatic.com/; style-src 'self' https://fonts.googleapis.com/ 'unsafe-inline';" />
   <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
   <!-- Main -->
   <link type="text/css" rel="stylesheet" href="styles/main.css"> <!-- Main -->
   <link type="text/css" rel="stylesheet" href="styles/colors.css"> <!-- Colors -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <!-- Material symbols -->
   <!-- Components -->
   <link type="text/css" rel="stylesheet" href="components/document/style.css"> <!-- Document element style -->
+  <link type="text/css" rel="stylesheet" href="components/icon/style.css"> <!-- Icon element style -->
   <link type="text/css" rel="stylesheet" href="components/layout/style.css"> <!-- Layout element style -->
-  <link type="text/css" rel="stylesheet" href="components/placeholder/style.css"> <!-- Document element style -->
-  <title>Hello from Electron renderer!</title>
+  <link type="text/css" rel="stylesheet" href="components/placeholder/style.css"> <!-- Placeholder element style -->
+  <title>OneLesson</title>
   <script src="components/components.js"></script>
 </head>
 
