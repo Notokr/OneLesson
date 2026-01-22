@@ -1,8 +1,17 @@
-class OLIcon extends HTMLElement {
-    static observedAttributes = ["icon"];
+
+class OLButton extends HTMLElement {
+    // static observedAttributes = ["icon"];
 
     /** @type {HTMLSpanElement} */
     iconSpan;
+
+    /**
+     * Callback function that is called when the button is clicked
+     * @type {Function}
+     * @param {string} arg - The argument passed to the callback
+     * @returns {boolean} The result of the callback function
+     */
+    onClickCallback;
 
     constructor() {
         super();
@@ -34,4 +43,4 @@ class OLIcon extends HTMLElement {
     }
 }
 
-customElements.define("ol-icon", OLIcon);
+customElements.define("ol-button", OLButton);
